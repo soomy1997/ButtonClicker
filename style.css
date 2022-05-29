@@ -1,0 +1,338 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#main-container
+{
+    width: 1250px;
+    height: 750px;
+     position: absolute;
+     left: 15%;
+     top:100px;
+     
+}
+
+
+
+/*Card 1*/
+
+#card{
+    width: 550px;
+    height: 450px;
+    border: 3px black solid;
+     position: absolute;
+     left: 15%;
+}
+#header{
+    background-color: rgb(4, 96, 172);
+    height: 150px;
+}
+#profile-pic img{
+    width: 150px;
+    top: 80px;
+    left:55px;
+    position: absolute;
+    
+}
+#container{
+    padding: 50px;
+    margin:auto;
+}
+
+
+#profile-content{
+    position: relative;
+    padding-top: 50px;
+}
+
+
+#location {
+    padding-bottom: 30px;
+ }
+
+#location ul{
+    list-style: none;
+  
+  }
+
+#location ul li{
+    display: inline;
+
+
+ 
+ }
+ #settings {
+    padding-top: 10px;
+ }
+ #settings ul{
+    list-style: none;
+ 
+ }
+ #settings ul li{
+     display: inline;
+  
+  }
+
+
+
+
+/*Card 4*/
+#card2{
+    /*My code*/
+    width: 550px;
+    height: 270px;
+    border: 3px black solid;
+    position: absolute;
+    left: 15%;
+    
+    bottom: 0;
+}
+#header2{
+    /*My code*/
+    background-color: rgb(70, 69, 69);
+    height: 70px;
+}
+
+#header2 h2
+{
+ /*My code*/
+color: white;
+position: relative;
+bottom: -20px;
+left: 10px;
+}
+
+#container2 {
+    /*My code*/
+    padding: 50px;
+    margin:auto;
+   
+}
+
+
+
+
+#profile-content2{
+    position: relative;
+    padding-top: -80px;
+    left: -20px;
+}
+
+
+/* Card 2 code starts here*/
+
+#connection-requests
+{
+    width: 350px;
+    height: 225px;
+    border: 3px black solid;
+    position: absolute;
+    left: 65%;
+}
+#connection-requests-header
+{
+    background-color: rgb(70, 69, 69);
+    height: 35px;
+    padding-top: 10px;
+}
+#connection-requests-header h3
+{
+color: white;
+position: relative;
+bottom: 25px;
+left: 35px;
+}
+.count
+{
+color: white;
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    background: rgb(187, 185, 185);
+    text-align: center;
+    color: black;
+    font-size: 19px;
+    margin-left: 5px;
+}
+
+#people
+{
+    height: 180px;
+
+}
+#ahmed
+{
+    height: 75px;
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+    padding-top: 20px;
+}
+.ahmed-image
+{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    margin-left: 5px;
+}
+
+
+/* Card 3 code starts here*/
+#connection-requests2{
+    /*My code*/
+    width: 400px;
+    height: 500px;
+    border: 3px black solid;
+    position: absolute;
+    left: 65%;
+    bottom: 0;
+
+}
+
+
+#connection-requests-header2
+    {
+        /*My code*/
+        background-color: rgb(70, 69, 69);
+        height: 35px;
+        padding-top: 10px;
+    }
+
+    #connection-requests-header2 h3
+    {
+        /*My code*/
+    color: white;
+    position: relative;
+    bottom: 25px;
+    left: 65px;
+    }
+
+
+.count2
+{
+     /*My code*/
+    color: white;
+    height: 25px;
+    width: 50px;
+    border-radius: 400%;
+    background: rgb(187, 185, 185);
+    text-align: center;
+    color: black;
+    font-size: 19px;
+    margin-left: 5px;
+}
+
+
+#people2
+{
+    /*My code*/
+    height: 180px;
+
+}
+
+
+#ahmed2
+{
+     /*My code*/
+    height: 75px;
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+    padding-top: 20px;
+}
+
+#ahmed h2
+{
+    position: relative;
+    top: 10px;
+}
+
+#ahmed2 h2
+{
+    /*My code*/
+    position: relative;
+    top: 10px;
+}
+
+.ahmed2-image
+{
+    /*My code*/
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    margin-left: 5px;
+}
+
+/* Nav bar code*/
+.nav{
+    background-color: #696966;
+    display: flex;
+    padding: 1rem 0;
+    align-items: center;
+    justify-content: flex-end;
+  
+    }
+    .nav-title{
+        margin: auto;
+        color: white;
+        margin-left: 2em;
+    }
+    .nav-links{
+        display: flex;
+       
+    }
+    .nav-links a{
+        display: flex;
+        text-decoration: none;
+        color: white;
+    }
+    .nav-links li{
+        list-style-type: none;
+        margin-right: 2rem;
+    }
+
+
+    .sighbtn button{
+        justify-content: flex-end;
+        color: #f1eeee;
+        background-color: #32aff1;
+        box-shadow: 5px 5px black;
+        width: 100px;
+        height: 30px;
+      
+    }
+
+    .btn2{
+        justify-content: flex-end;
+        color: #070707;
+        background-color: #ecb621;
+        box-shadow: 5px 5px black;
+        width: 100px;
+        height: 30px;
+    }
+
+
+
+    .Dictionarybtn3 button{
+        justify-content: flex-end;
+        color: #070707;
+        background-color: #2ca72c;
+        box-shadow: 5px 5px black;
+        width: 200px;
+        height: 40px;
+        margin: 0;
+        position: absolute;
+        top: 70%;
+        left: 50%;
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+    }
+    
+
+
+
+
+
+
+   

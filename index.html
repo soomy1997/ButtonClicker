@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dojonary </title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+</head>
+
+<body>
+    <div class="nav">
+        <h1 class="nav-title">Dojonary</h1>
+        <div class="search-container">
+            <form action="/action_page.php">
+              <input type="text" placeholder="Search.." name="search">
+              <button type="submit"><i class="fa fa-search"></i></button>
+            </form>
+          </div>
+        <div class="sighbtn"><button id="btn">Login</button></div>
+        <script src="script.js"></script>
+    </div>
+
+
+
+    <div id="main-container">
+
+
+        <div id="card">
+            <div id="container">
+                <div id="profile-content">
+                    <h1>ninja</h1>
+                    <h2><i>noun</i></h2> 
+                    <h3>Plural: <i> ninjas</i></h3>
+                   
+                    <p>A practitioner skilled in the <a href="#">Japeneses</a> art of <a href="#">ninjitsu</a></p>
+                    <br><br>
+                    <div class="likebtn1"><button class="btn2" onclick="myFunction()"><h3>13 Likes</h3></button></div>
+                      
+                </div>
+          
+            </div>
+        </div>
+
+        <div id="card2">
+          
+            <div id="container2">
+                <div id="profile-content2">
+                    <h1>ninja</h1>
+                    <h2><i>noun</i></h2> 
+                    <h3>Plural: <i> ninjas</i></h3>
+                     <p>A <a href="#">programmer</a> who breaks down problems with <a href="#">zen</a>-like focus</p>
+                     <br><br>
+                     <div class="likebtn2"><button class="btn2" onclick="myFunction()"><h3>37 Likes</h3></button></div>
+
+                </div>
+            </div>
+        </div>
+
+
+
+        <div id="connection-requests">
+            <br><br>
+            <h1>Dojonary is deifined by <b>YOU </b></h1>
+            <br><br>
+            <div class="Dictionarybtn3"><button id="btn3" onclick="hide(this)"><h2>Add Definition</h2></button></div>
+            <script src="script.js"></script>
+        </div>
+  
+    </div>
+    <script>
+        function myFunction() {
+          alert("Ninja was liked!");
+        }
+        </script>
+
+</body>
+
+</html>
